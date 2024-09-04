@@ -2,7 +2,7 @@
   "name": "Busca de Filmes com OMDb",
   "short_name": "Busca de Filmes",
   "description": "Aplicação para buscar filmes usando a API OMDb, desenvolvida com Express e JavaScript.",
-  "start_url": "/",
+  "start_url": "/moviefinderall.netlify.app",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#007bff",
@@ -32,5 +32,15 @@
     "fullscreen",
     "window-controls-overlay",
     "standalone"
-  ]
+  ],
+  "prefer_related_applications": true,
+  "categories": [
+    "books",
+    "entertainment",
+    "games",
+    "music"
+  ],
+  "edge_side_panel": {
+    "preferred_width": 1
+  }
 }
